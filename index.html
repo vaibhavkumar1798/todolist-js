@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/photos/android-chrome-512x512.png"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <header class="heading">To Do List</header>
+        <div class="inputbox">
+          <i class="">
+            <iconify-icon icon="uil:file-check-alt"></iconify-icon
+          ></i>
+          <input
+            type="text"
+            id="item"
+            autofocus
+            placeholder="Type your todo list"
+          />
+        </div>
+
+        <div class="clckbutton">
+          <span class="btn completeall">Complete all tasks</span>
+          <span class="btn clearcomtask">Clear Completed</span>
+        </div>
+        <hr />
+        <ul id="box"></ul>
+        <hr />
+        <div class="clckbutton">
+          <span>
+            <span class="pendingTasks"></span
+            ><!--Empty span for task count -->
+            tasks left</span
+          >
+          <div>
+            <span class="btn All">All</span>
+            <span class="btn complete">Complete</span>
+            <span class="btn uncomplete">Uncomplete</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/50b9a8be23.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+
+  </body>
+</html>
